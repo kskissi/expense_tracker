@@ -33,4 +33,4 @@ def index():
     return render_template('index.html', expenses=expenses, total_expenses=total_expenses)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080) #The port has been changed here.
+    app.run(debug=True, port=8081) # The port has been changed to 8081.
