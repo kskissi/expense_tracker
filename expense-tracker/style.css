@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Adjust width as needed */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.search-add-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#searchInput {
+    border: none;
+    padding: 8px;
+    flex-grow: 1;
+}
+
+#searchButton {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.add-expense-btn {
+    background-color: #42a5f5; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-expense-btn:hover {
+    background-color: #1e88e5;
+}
+
+.expense-form {
+    background-color: #e3f2fd; /* Light blue form background */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.form-inputs {
+    display: flex;
+}
+
+.form-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Add styling for expense list here */
+.expense-list {
+    /* Style the list of expenses */
+}

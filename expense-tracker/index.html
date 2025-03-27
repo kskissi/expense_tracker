@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+
+        <div class="search-add-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search Expense">
+                <button id="searchButton">🔍</button>
+            </div>
+            <button id="addExpenseButton" class="add-expense-btn">add expense</button>
+        </div>
+
+        <div class="expense-form">
+            <h2>Expense Tracker</h2>
+            <div class="form-inputs">
+                <div class="form-left">
+                    <label for="date">Date</label>
+                    <label for="category">Category</label>
+                    <label for="amount">Amount</label>
+                    <label for="description">Description</label>
+                </div>
+                <div class="form-right">
+                    <input type="date" id="date">
+                    <select id="category">
+                        <option value="transport">Transport</option>
+                        <option value="food">Food</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="number" id="amount">
+                    <input type="text" id="description">
+                </div>
+            </div>
+            <button id="submitExpense" class="add-expense-btn">Add Expense</button>
+        </div>
+
+        <div class="expense-list">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
